@@ -1,0 +1,45 @@
+.section-produto img {
+  max-width: 420px;
+}
+.section-contet {
+  margin-top: 100px;
+  border: 2px solid black;
+}
+.section-subcontet {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 170px;
+  background-color: rgb(228, 233, 233);
+  padding: 50px 800px;
+  border-radius: 5px;
+}
+
+.section-titulo {
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.section-produto h3 {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+.section-preco {
+  background-color: darkgray;
+  padding: 5px;
+  border-radius: 5px;
+}
+.section-produto a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.section-produto a:hover {
+  background-color: rgb(19, 18, 18);
+  padding: 13px;
+}

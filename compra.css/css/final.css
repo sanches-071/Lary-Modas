@@ -1,0 +1,42 @@
+.final-contet {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.final-contet h1 {
+  color: white;
+}
+.final-contet h1::after {
+  display: block;
+  content: "";
+  margin-top: 20px;
+  padding: 2px 180px;
+  background-color: white;
+}
+.final-color {
+  background-color: rgb(0, 0, 0);
+  margin-top: 200px;
+  padding: 50px;
+}
+.final-contet a {
+  text-decoration: none;
+  color: darkmagenta;
+  font-size: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+.grid img {
+  grid-column: 1;
+  margin-top: 10px;
+}
+
+.mapa li {
+  padding: 20px;
+}
+.mapa a {
+  text-decoration: underline;
+}

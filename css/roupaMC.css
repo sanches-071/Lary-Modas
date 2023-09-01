@@ -1,0 +1,106 @@
+.titulo-masculino {
+  font-size: 80px;
+  text-align: center;
+}
+.masculino-contet {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1500px;
+  background-color: rgb(208, 209, 209);
+  box-shadow: 1px 1px 20px black;
+  border-radius: 10px;
+  margin-bottom: 80px;
+}
+.subcontet {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+.maculino-titulo {
+  grid-column: 2/4;
+}
+.maculino-titulo h1 {
+  font-size: 30px;
+  font-style: oblique;
+}
+.maculino-titulo p {
+  font-size: 25px;
+}
+.maculino-titulo a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  padding: 16px;
+  border-radius: 10px;
+  text-align: right;
+  transition: 0.5s;
+}
+.maculino-titulo a {
+  position: absolute;
+  left: 1200px;
+  top: 280px;
+}
+.maculino-titulo a:hover {
+  padding: 18px;
+}
+.masculino-preco {
+  position: absolute;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: 20px;
+  left: 460px;
+}
+
+.saiba {
+  text-align: center;
+}
+.saiba a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  background-color: rgb(115, 6, 240);
+  padding: 15px 60px;
+  border-radius: 15px;
+  transition: 1s;
+  text-transform: uppercase;
+}
+.saiba a:hover {
+  background-color: rgb(7, 240, 240);
+  padding: 18px 63px;
+}
+.feminino-contet {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1500px;
+  background-color: rgb(208, 209, 209);
+  box-shadow: 1px 1px 20px black;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+.feminina {
+  border-top: 2px solid black;
+  margin-top: 80px;
+}
+.link {
+  margin-top: 60px;
+}
+.Masculino h1::after {
+  content: "";
+  display: block;
+  padding: 2px 100px;
+  background-color: black;
+  margin-top: 10px;
+}
+.maculino-titulo h1::after {
+  content: "";
+  display: block;
+  padding: 2px 100px;
+  background-color: black;
+  margin-top: 10px;
+}

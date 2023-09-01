@@ -1,0 +1,44 @@
+.titulo-color {
+  background-color: rgb(7, 7, 7);
+  padding: 30px;
+}
+
+.titulo-contet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.titulo-link {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.titulo-contet h1 {
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+}
+.titulo-link li {
+  list-style: none;
+}
+.titulo-link a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+.titulo-link a:hover {
+  text-decoration: underline;
+  color: rgb(210, 214, 218);
+}
+.foto-titulo {
+  background-color: rgb(24, 23, 23);
+  box-shadow: 1px 1px 50px rgb(66, 66, 66);
+  padding: 10px;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.foto-titulo:hover {
+  background-color: rgb(51, 50, 50);
+}

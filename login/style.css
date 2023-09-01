@@ -1,0 +1,88 @@
+body {
+  background: url(/img/login1.jpg);
+  max-width: 2400px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+}
+.login-contet {
+  position: relative;
+  top: 350px;
+  background-color: rgb(243, 241, 241, 15%);
+  backdrop-filter: blur(3px);
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 60px 80px;
+}
+.titulo {
+  font-size: 30px;
+  position: relative;
+  color: white;
+  bottom: 50px;
+  right: 40px;
+}
+.titulo::after {
+  content: "";
+  display: block;
+  position: absolute;
+  padding: 2px 300px;
+  right: -90px;
+  top: 60px;
+  background-color: white;
+}
+.subtitulo {
+  font-size: 34px;
+  position: relative;
+  color: white;
+  bottom: 30px;
+  right: 20px;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 20px;
+}
+.input input {
+  padding: 5px 60px;
+  border: none;
+  font-size: 30px;
+  background-color: rgb(255, 255, 255, 0%);
+  border-bottom: 2px solid black;
+}
+.flex {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.butao {
+  display: flex;
+  justify-content: right;
+  margin-top: 30px;
+}
+button {
+  padding: 5px 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgba(147, 247, 185, 0.918);
+}
+nav {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+nav a {
+  font-size: 25px;
+  color: white;
+  padding: 10px 25px;
+  border: 2px solid white;
+  text-decoration: none;
+}

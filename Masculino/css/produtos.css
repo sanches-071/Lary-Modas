@@ -1,0 +1,87 @@
+.nome-produtos {
+  text-align: left;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.nome-produtos h2 {
+  font-size: 55px;
+}
+.nome-produtos h2 {
+  color: black;
+}
+.nome-produtos h2::after {
+  content: "";
+  display: block;
+  padding: 2px 150px;
+  background-color: black;
+}
+img {
+  max-width: 400px;
+}
+.camisa-contet {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1300px;
+  margin: 0 auto;
+  gap: 30px;
+}
+.camisa-contet div {
+  margin-bottom: 80px;
+  border: 3px solid rgb(212, 212, 212);
+  padding: 20px;
+  height: 615px;
+  border-radius: 4px;
+}
+.camisa-contet div h1 {
+  font-size: 35px;
+}
+.camisa-contet div p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.camisa-contet div a {
+  position: relative;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(5, 5, 5);
+  color: white;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.camisa-contet div a img {
+  margin-left: 5px;
+  position: relative;
+  top: 5px;
+}
+
+.number-contet {
+  display: flex;
+  justify-content: center;
+}
+.number-flex {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.number-flex {
+  border-bottom: 4px solid black;
+}
+.number-flex li {
+  list-style: none;
+}
+.number-flex li a {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+.number-flex img {
+  max-width: 40px;
+}
+.camisa-contet div a:hover img {
+  transform: rotateY(180deg);
+}
+.camisa-contet div a:hover {
+  padding: 21px;
+}

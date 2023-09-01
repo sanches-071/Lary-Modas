@@ -1,0 +1,31 @@
+.descricao-color {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-top: 60px;
+  background-color: rgb(247, 246, 246);
+  padding: 10px;
+  padding-bottom: 20px;
+}
+.descriçao-contet {
+  margin-top: 60px;
+}
+.titulo-descricao {
+  display: grid;
+  justify-content: center;
+}
+.titulo-descricao h1 {
+  font-size: 50px;
+}
+.paragrafo-descricao {
+  display: grid;
+  justify-content: center;
+}
+.paragrafo-descricao p {
+  font-size: 20px;
+}
+
+main {
+  display: grid;
+  justify-content: center;
+  margin-top: 160px;
+}

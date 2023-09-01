@@ -1,0 +1,117 @@
+.compra-contet {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.foto img {
+  max-width: 860px;
+}
+.contet-compra h1 {
+  font-size: 60px;
+}
+.contet-compra h1::after {
+  content: "";
+  display: block;
+  padding: 2px 120px;
+  margin-top: 20px;
+  background-color: black;
+}
+.contet-compra span {
+  font-size: 55px;
+  color: greenyellow;
+}
+.contet-compra h3 {
+  font-size: 25px;
+}
+.input-tamanho label {
+  background-color: black;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 20px;
+}
+.input-tamanho input {
+  display: none;
+}
+.ck1:checked ~ .ck-1 {
+  background-color: blueviolet;
+}
+.ck2:checked ~ .ck-2 {
+  background-color: blueviolet;
+}
+.ck3:checked ~ .ck-3 {
+  background-color: blueviolet;
+}
+.ck4:checked ~ .ck-4 {
+  background-color: blueviolet;
+}
+.ck5:checked ~ .ck-5 {
+  background-color: blueviolet;
+}
+.ck6:checked ~ .ck-6 {
+  background-color: blueviolet;
+}
+.ck7:checked ~ .ck-7 {
+  background-color: blueviolet;
+}
+.input-argola input {
+  display: none;
+}
+.input-argola label {
+  padding: 15px 30px;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border-radius: 6px;
+}
+.input-argola {
+  margin: 30px 0px;
+}
+#argola:checked ~ .argola-0 {
+  background-color: blueviolet;
+}
+#argola1:checked ~ .argola-1 {
+  background-color: blueviolet;
+}
+.compra-butao {
+  display: flex;
+  margin: 70px 0px;
+  justify-content: center;
+}
+.compra-butao a {
+  text-decoration: none;
+  font-size: 35px;
+  padding: 10px 180px;
+  border-radius: 10px;
+  color: black;
+  background-color: blueviolet;
+}
+h3 {
+  margin-top: 40px;
+}
+.cep-contet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.cep-contet input {
+  font-size: 20px;
+  padding: 10px 100px 10px 10px;
+  position: relative;
+  right: 60px;
+  border: none;
+  border-bottom: 2px solid black;
+}
+.cep-contet a {
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 15px 70px;
+  right: -120px;
+  border-radius: 10px;
+  background-color: darkmagenta;
+}

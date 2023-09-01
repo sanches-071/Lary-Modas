@@ -1,0 +1,13 @@
+@import url("titulo.css");
+@import url("intro-1.css");
+@import url("promo.css");
+@import url("roupaMC.css");
+@import url("cadastro.css");
+@import url("final.css");
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}

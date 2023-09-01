@@ -1,0 +1,119 @@
+.cadastro-position {
+  display: grid;
+  justify-content: center;
+  margin-top: 130px;
+}
+.cadastro-contet {
+  background-color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 30px black;
+  padding: 60px;
+  border-radius: 10px;
+}
+.cadastro-contet h1 {
+  font-size: 80px;
+  color: white;
+}
+.cadastro-contet span {
+  color: blueviolet;
+}
+.input-cpf {
+  display: flex;
+  flex-direction: column;
+}
+.input-cpf input {
+  padding: 15px;
+}
+#cadastro {
+  padding: 13px 180px;
+}
+#cada {
+  font-size: 30px;
+}
+
+label {
+  color: white;
+  padding: 20px;
+  background-color: rgb(12, 12, 12);
+  border-radius: 10px;
+}
+.input-gab input {
+  margin-bottom: 30px;
+  margin-right: 20px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+#Revendedor {
+  padding: 10px 140px;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.input-revendedor {
+  position: relative;
+  left: 30px;
+}
+.input-revendedor button {
+  padding: 20px 40px;
+  margin-top: 30px;
+  font-size: 20px;
+  background-color: rgb(7, 7, 7);
+  color: white;
+}
+.input-ga {
+  display: none;
+}
+
+.cadastro:checked ~ .input-gab {
+  display: block;
+}
+.revendedor:checked ~ .input-gab {
+  display: none;
+}
+.revendedor:checked ~ .input-ga {
+  display: block;
+}
+.revendedor:checked ~ #cada {
+  background-color: rgb(149, 32, 196);
+}
+.cadastro:checked ~ .cadu {
+  background-color: rgb(149, 32, 196);
+}
+.cadu {
+  animation: cadu 2s infinite;
+}
+button {
+  padding: 20px 90px;
+  font-size: 20px;
+  background-color: rgb(109, 107, 107);
+  color: white;
+  transition: 0.6s;
+}
+button:hover {
+  background-color: rgba(159, 129, 211, 0.5);
+  color: black;
+  transform: rotateY(360deg);
+}
+button {
+  animation: botao 3s infinite;
+}
+@keyframes botao {
+  0% {
+    color: white;
+  }
+  50% {
+    color: blueviolet;
+  }
+  75% {
+    color: crimson;
+  }
+  100% {
+    color: white;
+  }
+}
+.img-registro {
+  margin-right: 16px;
+}
+#cada1,
+#cada2 {
+  display: none;
+}

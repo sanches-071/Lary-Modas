@@ -1,0 +1,51 @@
+.titulo-color {
+  background-color: black;
+  padding: 10px;
+}
+.titulo-contet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.titulo-contet h1 {
+  font-size: 60px;
+  color: white;
+}
+.titulo-flex {
+  display: flex;
+  gap: 70px;
+  list-style: none;
+  align-items: center;
+}
+.titulo-flex li a img {
+  background-color: rgb(27, 27, 27);
+  padding: 8px;
+  max-width: 40px;
+  border-radius: 10px;
+  margin: 0px;
+}
+.titulo-flex li a img:hover {
+  background-color: rgb(34, 32, 32);
+}
+.titulo-flex li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  transition: 0.2s;
+}
+.titulo-flex li a:hover {
+  text-decoration: underline;
+}
+.sub-titulo {
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+.sub-titulo h1 {
+  font-size: 70px;
+  margin: 40px;
+}
+.sub-titulo h1 {
+  color: black;
+}
